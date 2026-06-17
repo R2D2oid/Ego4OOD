@@ -1,4 +1,4 @@
-# [Ego4OOD: A Domain Generalization Benchmark for Egocentric Video](https://github.com/R2D2oid/Ego4OOD)
+# [Ego4OOD: A Domain Generalization Benchmark for Egocentric Videos](https://github.com/R2D2oid/Ego4OOD)
 
 **Ego4OOD** is a domain generalization benchmark constructed from moment-level annotations in the [Ego4D](https://ego4d-data.org/) dataset. It provides pre-extracted SlowFast features and FFCV-format files for fast training and evaluation of domain generalization methods on egocentric action recognition.
 
