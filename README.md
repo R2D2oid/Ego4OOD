@@ -2,7 +2,7 @@
 
 **Ego4OOD** is a domain generalization benchmark constructed from moment-level annotations in the [Ego4D](https://ego4d-data.org/) dataset. It provides pre-extracted SlowFast features and FFCV-format files for fast training and evaluation of domain generalization methods on egocentric action recognition.
 
-> **Note:** Access to the raw Ego4D video clips and features requires accepting the [Ego4D license agreement](https://ego4d-data.org/docs/start-here/). The annotation files in this repository are freely available; the `.npy` feature files and `.beton` FFCV files require Ego4D access.
+> **Note:** Access to the raw Ego4D video clips and features requires accepting the [Ego4D license agreement](https://ego4d-data.org/docs/start-here/). The annotation files in this repository are freely available; the `.npy` feature files and `.beton` FFCV files require Ego4D access. To request the `.beton` files, open a [GitHub issue](https://github.com/R2D2oid/Ego4OOD/issues) or email the authors.
 
 ---
 
@@ -156,7 +156,7 @@ Each sample in a `.beton` file contains three fields:
 
 ### Downloading FFCV Files
 
-> FFCV files will be made available upon acceptance of the Ego4D license. Please [open an issue](#) or contact the authors for access.
+> The `.beton` files are available upon request. Please open a [GitHub issue](https://github.com/R2D2oid/Ego4OOD/issues) or email the authors directly. Access requires prior acceptance of the [Ego4D license](https://ego4d-data.org/docs/start-here/).
 
 ---
 
