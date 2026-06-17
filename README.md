@@ -8,9 +8,9 @@
 
 ## Dataset Overview
 
-Ego4OOD leverages the fine-grained, temporally localized moment annotations in Ego4D, covering **203 atomic action classes** grouped into **9 semantically coherent categories**. This categorization provides precise semantic boundaries and reduces ambiguity compared to video-level scenario labels.
+Ego4OOD leverages the fine-grained, temporally localized moment annotations in Ego4D, covering **203 action classes** grouped into **9 semantically coherent categories**. This categorization provides precise semantic boundaries and reduces ambiguity compared to video-level scenario labels.
 
-| Stat | Value |
+| Stat | \# |
 |------|-------|
 | Total clips | 20,096 |
 | Training clips | 15,490 |
@@ -27,14 +27,14 @@ Each domain corresponds to a distinct geographic region where Ego4D data was col
 
 | Domain key | Region | Index |
 |---|---|---|
-| `bristol` | UK (University of Bristol) | 2 |
+| `cmu` | USA — CMU | 0 |
 | `iiith` | India (IIIT Hyderabad) | 1 |
+| `bristol` | UK (University of Bristol) | 2 |
 | `unict` | Italy (University of Catania) | 3 |
 | `kaust` | Saudi Arabia (KAUST) | 4 |
 | `frl_track_1_public` | FRL (Facebook Reality Labs) | 5 |
-| `cmu` | USA — CMU | 0 |
-| `minnesota` | USA — Minnesota | 7 |
 | `utokyo` | Japan (University of Tokyo) | 6 |
+| `minnesota` | USA — Minnesota | 7 |
 
 The standard domain generalization protocol holds out one domain as the out-of-distribution (OOD) test set while training on the remaining seven.
 
