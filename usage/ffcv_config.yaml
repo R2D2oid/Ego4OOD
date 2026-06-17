@@ -3,7 +3,7 @@ dataset_splits:
 
 ffcv_path:
   desc: ffcv base directory
-  value: /path/to/Ego4OOD/betons
+  value: /path/to/Ego4OOD/ffcv
 
 n_before_after_context:
   desc: Sequence length of loaded features before/after.

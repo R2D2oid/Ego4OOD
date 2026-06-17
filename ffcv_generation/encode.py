@@ -30,7 +30,7 @@ n_labels = len(config.labels)
 n_temporal_samples = 3
 
 annotations_path = os.path.join(config.repo_root, 'annotations')
-ffcv_path        = os.path.join(config.repo_root, 'betons')
+ffcv_path        = os.path.join(config.repo_root, 'ffcv')
 
 out_fn = f'{args.holdout_domain}_Ego4OOD_{args.split}.beton'
 out_path = os.path.join(ffcv_path, out_fn)

@@ -1,5 +1,5 @@
-betons/*
-!betons/.gitkeep
+ffcv/*
+!ffcv/.gitkeep
 __pycache__/
 *.pyc
 .wandb/

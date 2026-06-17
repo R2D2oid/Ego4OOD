@@ -70,7 +70,7 @@ Ego4OOD/
 │   ├── domain_to_idx.json      # domain name → integer index
 │   ├── category_to_idx.json    # category name → integer index
 │   └── moment_to_idx.json      # moment class name → integer index
-├── betons/                     # pre-built FFCV .beton files (one per domain/split)
+├── ffcv/                     # pre-built FFCV .beton files (one per domain/split)
 ├── usage/
 │   ├── load_ffcv.py            # example: load a .beton file with FFCV
 │   └── ffcv_config.yaml        # config for the loading example
@@ -180,7 +180,7 @@ bash ffcv_generation/generate.sh iiith train
 bash ffcv_generation/generate_all.sh
 ```
 
-This generates `iiith_Ego4OOD_train.beton` (training on all domains except `iiith`) and `iiith_Ego4OOD_test.beton` (OOD test set = `iiith` only) inside `betons/`.
+This generates `iiith_Ego4OOD_train.beton` (training on all domains except `iiith`) and `iiith_Ego4OOD_test.beton` (OOD test set = `iiith` only) inside `ffcv/`.
 
 ### 3. Load FFCV files in Python
 

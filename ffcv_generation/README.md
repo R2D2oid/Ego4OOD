@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 2. Edit `config.yaml` and set:
-   - `repo_root` — path to the root of this repo (used to locate `annotations/` and `betons/`)
+   - `repo_root` — path to the root of this repo (used to locate `annotations/` and `ffcv/`)
    - `feat_root` — path to the directory containing per-split SlowFast feature folders (`train/`, `val/`)
 
 ## Usage
