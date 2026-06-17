@@ -1,0 +1,51 @@
+dataset_splits:
+  value: [ "train"]
+
+ffcv_path:
+  desc: ffcv base directory
+  value: /path/to/Ego4OOD/betons
+
+n_before_after_context:
+  desc: Sequence length of loaded features before/after.
+  value: 0
+
+dataset_ffcvs:
+  value: ["iiith_Ego4OOD_train.beton"]
+  
+ffcv_pre_shuffle:
+  desc: shuffle dataset before encoding
+  value: True
+
+feat_dim:
+  value: 2304
+
+labels:
+  desc: Labels returned by the dataloader. Should include action label first, followed by domain labels.
+  value: [ 'category_idx', 'subclass_idx', 'location_idx' ]
+
+sample_mode:
+  desc: How to sample features for a given action. E.g. start takes the first feature.
+  value: customized
+
+ffcv_order:
+  desc: Order used for training. Evaluation is always sequential. RANDOM, QUASI_RANDOM or SEQUENTIAL.
+  value: QUASI_RANDOM
+
+ffcv_os_cache:
+  desc: Set to true if whole dataset fits in memory (and use RANDOM).
+  value: False
+
+ffcv_batches_ahead:
+  value: 3
+
+csv_shuffle:
+  desc: shuffle the dataloader for csv files
+  value: True
+
+n_workers:
+  desc: Number of dataloader workers.
+  value: 1
+
+batch_size:
+  desc: Batch size for training and evaluation.
+  value: 2

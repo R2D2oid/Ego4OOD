@@ -1,0 +1,11 @@
+{
+    "construction": 0,
+    "dressing": 1,
+    "foodprep": 2,
+    "gardening": 3,
+    "housechores": 4,
+    "leisure": 5,
+    "personalcare": 6,
+    "shopping": 7,
+    "useelectronics": 8
+}

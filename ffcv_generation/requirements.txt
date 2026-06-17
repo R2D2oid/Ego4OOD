@@ -1,0 +1,7 @@
+ffcv
+torch
+torchvision
+numpy
+pandas
+wandb
+tqdm
